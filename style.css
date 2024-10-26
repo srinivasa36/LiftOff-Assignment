@@ -40,6 +40,12 @@ select {
   border-radius: 6px;
 }
 
+input::placeholder,
+textarea::placeholder {
+  padding-left: 10px;
+  color: #15364c80;
+}
+
 textarea {
   border: 1px solid #00000014;
   border-radius: 6px;
