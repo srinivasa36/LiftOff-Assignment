@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "brandonFont";
+  src: url("fonts/brandon-grotesque-light-58a8a4b38001d.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ralewayFont";
+  src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "brandonFont";
+}
+
+.nav-content {
+  background: #29373e;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+}
