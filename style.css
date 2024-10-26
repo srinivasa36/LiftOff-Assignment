@@ -661,16 +661,20 @@ label {
     font-size: 40px;
     line-height: 50px;
   }
+
   .nav-content {
     height: auto;
   }
+
   .barImg {
     margin-bottom: -6px;
   }
+
   .heroSec h1 {
     font: 800 25px "ralewayFont";
     margin: 25px 0;
   }
+
   .heroSec img,
   .storySecBg,
   .worksSec,
@@ -678,19 +682,23 @@ label {
     width: 100%;
     /* padding: 15px; */
   }
+
   .heroSec button {
     width: 350px;
   }
+
   .heroTxt div > img {
     width: 25px;
     height: 25px;
   }
+
   .storyDetails {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 15px;
   }
+
   .storyTxtHdrSec h2,
   .workTxtHdrSec h2,
   .partnerTxtHdrSec h2,
@@ -700,33 +708,43 @@ label {
     width: 80%;
     height: 45px;
     line-height: 45px;
-    font-size: 1em;
+    font-size: 13px;
     padding: 0 10px;
   }
+
   .partnerContent ul {
     columns: 1;
     padding: 15px;
   }
+
   .designSec {
     width: 100%;
     padding: 15px;
     flex-direction: column;
     align-items: center;
   }
+
   .trainingSec ul {
     columns: 1;
     padding: 0 30px;
   }
+
   .footerSec {
     height: auto;
   }
+
   .footerSec footer,
   .formSec {
     width: 100%;
     padding: 15px;
   }
+
   .footerLogoSec {
     align-items: flex-start;
+  }
+
+  .heroSec p {
+    width: 80%;
   }
 }
 
@@ -741,22 +759,28 @@ label {
   .footerSec footer {
     flex-direction: column;
   }
+
   .formDetails span {
     width: 100% !important;
   }
+
   .nav-content .navSec {
     padding: 0 15px;
   }
+
   .nav-content .navSec > a {
     font-size: 14px;
   }
+
   .nav-content .navSec > h2 {
     font-size: 15px;
     margin-left: -46px;
   }
+
   .heroSec h1 {
     font-size: 20px;
   }
+
   .trainingSec p {
     margin: 50px 0;
   }
@@ -767,5 +791,17 @@ label {
   .designSec {
     width: 100%;
     padding: 0 15px;
+  }
+
+  .heroTxt div > span {
+    font-size: 95px;
+  }
+
+  .barImg {
+    margin-bottom: 5px;
+  }
+
+  .worksSec {
+    width: 80%;
   }
 }
